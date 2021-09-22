@@ -8,7 +8,7 @@ Test Teardown  End Web Test
 # robot -d results tests/Front_Office.robot
 
 *** Variables ***
-${BROWSER} =  ie
+${BROWSER} =  chrome
 ${URL} =  http://www.robotframeworktutorial.com/front-office
 
 *** Test Cases ***
